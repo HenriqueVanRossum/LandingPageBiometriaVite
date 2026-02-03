@@ -134,3 +134,13 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+
+# Vite specific
+dist/
+dist-ssr/
+*.local
+
+# Editor
+.vscode/
+.idea/

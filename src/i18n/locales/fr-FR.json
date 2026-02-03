@@ -1,0 +1,854 @@
+{
+  "meta.title": "API de Biométrie Faciale - Prévenez la Fraude d'Identité",
+  "meta.description": "API biométrique basée sur des sessions avec détection de vivacité, protection anti-fraude et zéro stockage d'images brutes.",
+  "meta.og.title": "API de Biométrie Faciale",
+  "meta.og.description": "Prévenez la fraude d'identité avec la biométrie faciale et la détection de vivacité.",
+  "meta.og.type": "website",
+
+  "hero.title.highlight": "Prévenez la Fraude d'Identité",
+  "hero.title.main": "avec la Biométrie Faciale",
+  "hero.subtitle": "API biométrique basée sur des sessions avec détection de vivacité, protection anti-fraude et zéro stockage d'images brutes.",
+  "hero.cta.startFree": "Démarrer des Sessions Biométriques Gratuites",
+  "hero.cta.tryRapidapi": "Essayer sur RapidAPI",
+
+  "common.notImplemented": "🚧 Cette fonctionnalité n'a pas encore été implémentée.",
+  "common.backHome": "Retour à l'Accueil",
+  "how.title": "Comment ça Fonctionne",
+  "how.subtitle": "Vérification biométrique basée sur des sessions en quatre étapes simples",
+
+  "how.steps.1.title": "Démarrer le Flux Biométrique",
+  "how.steps.1.description": "Votre système appelle un endpoint comme /enroll, /verify, /identify ou /update-embedding via l’API REST",
+
+  "how.steps.2.title": "Capture Sécurisée",
+  "how.steps.2.description": "L’API renvoie une URL et l’utilisateur est redirigé vers l’interface sécurisée de capture faciale",
+
+  "how.steps.3.title": "Analyse et Anti-Fraude",
+  "how.steps.3.description": "La biométrie est traitée en temps réel avec détection de vie et protection contre le spoofing",
+
+  "how.steps.4.title": "Résultat via /result",
+  "how.steps.4.description": "Après la capture, le client appelle /result en envoyant le client_state pour obtenir la décision finale",
+
+  "how.code.label": "Appel API simple",
+  "how.code.footer": "Aucune image brute n'est stockée. Comparaison cryptée uniquement.",
+
+  "features.title": "Fonctionnalités de Niveau Entreprise",
+  "features.subtitle": "Conçu pour la sécurité, l'évolutivité et la conformité",
+
+  "features.items.1.title": "Sécurité et Chiffrement",
+  "features.items.1.description": "Données faciales chiffrées de bout en bout avec des protocoles de sécurité de niveau militaire. Conforme au RGPD, LGPD, CCPA et aux réglementations biométriques.",
+
+  "features.items.2.title": "Anti-Fraude et Prévention des Doublons",
+  "features.items.2.description": "Comparaison faciale 1:N qui empêche les comptes en double. La détection de vivacité bloque les attaques d'usurpation et identifie la fraude en temps réel.",
+
+  "features.items.3.title": "Évolutivité et Conformité",
+  "features.items.3.description": "Capable de traiter des millions de vérifications avec une infrastructure d'entreprise. Journaux d'audit et rapports de conformité intégrés.",
+
+  "trust.title": "Approuvé par les Entreprises Leaders",
+
+  "trust.stats.verifications": "Vérifications",
+  "trust.stats.uptime": "Disponibilité",
+  "trust.stats.time": "Temps de Vérification",
+  "trust.stats.compliance": "Conformité",
+
+  "trust.clients.1": "Client Entreprise 1",
+  "trust.clients.2": "Client Entreprise 2",
+  "trust.clients.3": "Client Entreprise 3",
+  "trust.clients.4": "Client Entreprise 4",
+  "trust.clients.5": "Client Entreprise 5",
+
+  "trust.certs.title": "Conformité et Protection de la Vie Privée",
+  "trust.certs.1": "Conforme au RGPD",
+  "trust.certs.2": "Conforme à la LGPD",
+  "trust.certs.3": "Protection de la vie privée dès la conception",
+  "trust.certs.4": "Aucun stockage d’images brutes",
+
+  "privacy.title": "Technologie Biométrique Axée sur la Confidentialité",
+  "privacy.subtitle": "La confidentialité de vos utilisateurs est notre priorité. Notre plateforme a été construite avec la sécurité et la conformité dès la conception.",
+
+  "privacy.points.1": "Aucune image brute stockée — uniquement des modèles faciaux cryptés",
+  "privacy.points.2": "Pas de rétention de données — les sessions sont supprimées après vérification",
+  "privacy.points.3": "Confidentialité dès la conception — conforme aux réglementations internationales",
+  "privacy.points.4": "Traitement transparent — pistes d'audit complètes",
+
+  "privacy.imageAlt": "Illustration représentant la confidentialité et la sécurité des données",
+
+  "dev.title": "Intégration Simple via API REST",
+  "dev.subtitle": "Commencez en quelques minutes avec notre API conviviale pour les développeurs",
+
+  "dev.tabs.javascript": "JavaScript",
+  "dev.tabs.python": "Python",
+  "dev.tabs.curl": "cURL",
+
+  "dev.cta.docs": "Voir la Documentation Complète",
+
+  "finalCta.title": "Prêt à Éliminer la Fraude d'Identité ?",
+  "finalCta.subtitle": "Commencez aujourd'hui avec des sessions biométriques gratuites. Aucune carte de crédit requise.",
+
+  "finalCta.cta.startFree": "Démarrer des Sessions Biométriques Gratuites",
+  "finalCta.cta.scheduleDemo": "Planifier une Démo",
+
+  "footer.brand.title": "LenzId API",
+  "footer.brand.description": "Vérification biométrique faciale basée sur des sessions avec sécurité de niveau entreprise et confidentialité dès la conception.",
+
+  "footer.sections.product": "Produit",
+  "footer.sections.company": "Entreprise",
+  "footer.sections.legal": "Légal",
+
+  "footer.product.docs": "Documentation",
+  "footer.product.api": "Référence API",
+  "footer.product.pricing": "Tarifs",
+  "footer.product.security": "Sécurité",
+
+  "footer.company.about": "À Propos",
+  "footer.company.blog": "Blog",
+  "footer.company.careers": "Carrières",
+  "footer.company.contact": "Contact",
+
+  "footer.legal.privacy": "Politique de Confidentialité",
+  "footer.legal.terms": "Conditions d'Utilisation",
+  "footer.legal.cookies": "Politique de Cookies",
+  "footer.legal.compliance": "Conformité",
+
+  "footer.social.github": "GitHub",
+  "footer.social.twitter": "Twitter",
+  "footer.social.linkedin": "LinkedIn",
+  "footer.social.email": "E-mail",
+
+  "footer.copyright": "LenzId API. Tous droits réservés.",
+
+  "privacy.meta.title": "Politique de Confidentialité | LenzId",
+  "privacy.meta.description": "Comprenez comment LenzId traite les données personnelles et biométriques conformément au RGPD et à la LGPD.",
+
+  "privacy.policy.title": "Politique de Confidentialité",
+  "privacy.updatedAt": "Dernière mise à jour : 03 janvier 2026",
+
+  "privacy.sections.1.title": "1. Aperçu",
+  "privacy.sections.1.text": "Cette Politique de Confidentialité décrit comment LenzId traite les données personnelles dans le contexte de l'authentification biométrique faciale. Le service a été conçu en mettant l'accent sur la sécurité, la confidentialité et la minimisation des données, conformément au Règlement Général sur la Protection des Données (RGPD) et à la Loi Générale Brésilienne sur la Protection des Données (LGPD - Loi n° 13.709/2018).",
+
+  "privacy.sections.2.title": "2. Données Collectées",
+  "privacy.sections.2.text": "Pendant l'utilisation de la plateforme, des données techniques et opérationnelles peuvent être traitées, telles que des identifiants de session, des adresses IP, des informations sur l'appareil et des métadonnées de requête. Les images faciales ou vidéos des utilisateurs ne sont pas collectées ni stockées.",
+
+  "privacy.sections.3.title": "3. Utilisation de la Biométrie Faciale",
+  "privacy.sections.3.text": "La biométrie faciale est utilisée exclusivement à des fins d'authentification, de vérification d'identité et de prévention de la fraude. Les images capturées dans le flux biométrique sont traitées uniquement en mémoire pour générer des données mathématiques (embeddings) et sont immédiatement éliminées après le traitement.",
+
+  "privacy.sections.4.title": "4. Stockage et Sécurité",
+  "privacy.sections.4.text": "LenzId adopte des mesures techniques et organisationnelles rigoureuses pour protéger les données traitées, y compris le contrôle d'accès, le chiffrement, l'isolation des sessions et des politiques de rétention minimale. Il n'y a pas de stockage d'images faciales, seulement des données biométriques dérivées strictement nécessaires au fonctionnement du service.",
+
+  "privacy.sections.5.title": "5. Partage de Données",
+  "privacy.sections.5.text": "Les données traitées par LenzId ne sont pas vendues, louées ou partagées avec des tiers à des fins commerciales. Le partage peut uniquement se produire lorsque cela est strictement nécessaire pour le fonctionnement du service ou pour se conformer aux obligations légales.",
+
+  "privacy.sections.6.title": "6. Base Légale et Consentement",
+  "privacy.sections.6.text": "Le traitement des données biométriques se produit sur la base du consentement explicite de la personne concernée, recueilli avant le début du flux d'authentification faciale. Sans consentement, le processus biométrique n'est pas initié.",
+
+  "privacy.sections.7.title": "7. Droits de la Personne Concernée",
+  "privacy.sections.7.text": "La personne concernée peut exercer ses droits en vertu du RGPD et de la LGPD, y compris la confirmation du traitement, l'accès, la rectification, l'anonymisation, le retrait du consentement et la suppression des données, le cas échéant.",
+
+  "privacy.sections.8.title": "8. APIs et Intégrations",
+  "privacy.sections.8.text": "Lorsque LenzId est utilisé via des API ou intégré à des plateformes tierces, le traitement des données se produit exclusivement pour l'exécution du service contracté, en respectant les mêmes principes de sécurité, de confidentialité et de finalité décrits dans cette Politique.",
+
+  "privacy.sections.9.title": "9. Modifications de cette Politique",
+  "privacy.sections.9.text": "Cette Politique de Confidentialité peut être mise à jour périodiquement pour refléter les améliorations du service ou les changements légaux. La version la plus récente sera toujours disponible pour consultation.",
+
+  "privacy.sections.10.title": "10. Contact",
+  "privacy.sections.10.text": "Pour toute question, demande ou exercice de droits liés à cette Politique de Confidentialité, contactez-nous via le canal de support officiel de LenzId.",
+
+  "terms.meta.title": "Conditions d'Utilisation | LenzId",
+  "terms.meta.description": "Lisez les Conditions d'Utilisation de la plateforme LenzId.",
+
+  "terms.policy.title": "Conditions d'Utilisation",
+  "terms.updatedAt": "Dernière mise à jour : 03 janvier 2026",
+
+  "terms.sections.1.title": "1. Acceptation des Conditions",
+  "terms.sections.1.text": "En utilisant la plateforme LenzId, vous acceptez intégralement ces Conditions d'Utilisation.",
+
+  "terms.sections.2.title": "2. Description du Service",
+  "terms.sections.2.text": "LenzId propose des services d'authentification biométrique faciale basés sur des sessions.",
+
+  "terms.sections.3.title": "3. Responsabilités de l'Utilisateur",
+  "terms.sections.3.text": "Les utilisateurs sont responsables de l'utilisation appropriée de la plateforme et du respect de la législation applicable.",
+
+  "terms.sections.4.title": "4. Limitations d'Utilisation",
+  "terms.sections.4.text": "Il est interdit d'utiliser le service à des fins illégales, frauduleuses ou non autorisées.",
+
+  "terms.sections.5.title": "5. Propriété Intellectuelle",
+  "terms.sections.5.text": "Tous les droits sur la plateforme, les API et les marques appartiennent à LenzId.",
+
+  "terms.sections.6.title": "6. Limitation de Responsabilité",
+  "terms.sections.6.text": "LenzId n'est pas responsable des dommages indirects ou de l'utilisation abusive de la plateforme.",
+
+  "terms.sections.7.title": "7. Suspension et Résiliation",
+  "terms.sections.7.text": "Le service peut être suspendu ou résilié en cas de violation de ces conditions.",
+
+  "terms.sections.8.title": "8. Modifications des Conditions",
+  "terms.sections.8.text": "Les Conditions d'Utilisation peuvent être modifiées à tout moment, avec publication de la version mise à jour.",
+
+  "terms.sections.9.title": "9. Législation Applicable",
+  "terms.sections.9.text": "Ces Conditions sont régies par les lois brésiliennes et internationales.",
+
+  "terms.sections.10.title": "10. Contact",
+  "terms.sections.10.text": "Pour toute question, contactez le support officiel de LenzId.",
+
+  "about.meta.title": "À Propos de Nous | LenzId - Biométrie Faciale Intelligente",
+  "about.meta.description": "Découvrez comment LenzId révolutionne l'authentification biométrique avec une technologie de pointe, la confidentialité dès la conception et la protection anti-fraude pour les entreprises qui prennent la sécurité au sérieux.",
+
+  "about.title": "À Propos de LenzId",
+  "about.subtitle": "Transformer la vérification d'identité avec une biométrie faciale intelligente, sécurisée et entièrement conforme aux principales réglementations mondiales sur la protection des données.",
+
+  "about.sections.1.title": "Qui Nous Sommes",
+  "about.sections.1.text": "LenzId est une plateforme de biométrie faciale de nouvelle génération conçue pour les entreprises qui doivent combattre la fraude d'identité sans compromettre la confidentialité des utilisateurs. Notre technologie basée sur des sessions élimine le stockage d'images brutes, traitant les données biométriques de manière éphémère et sécurisée. Nous sommes nés du besoin croissant de solutions d'authentification qui équilibrent sécurité maximale et respect absolu des droits individuels.",
+
+  "about.sections.2.title": "Notre Mission",
+  "about.sections.2.text": "Permettre aux organisations de toutes tailles de bénéficier d'une authentification biométrique qui est simultanément robuste, évolutive et éthiquement responsable. Nous nous engageons à fournir une vérification d'identité de la plus haute précision tout en maintenant une conformité stricte avec la LGPD, le RGPD et d'autres réglementations mondiales sur la confidentialité. Nous croyons que la sécurité et la confidentialité ne sont pas des concepts opposés, mais des piliers complémentaires d'une technologie véritablement digne de confiance.",
+
+  "about.sections.3.title": "Confidentialité dès la Conception",
+  "about.sections.3.text": "La confidentialité n'est pas une fonctionnalité supplémentaire chez LenzId - c'est le fondement de tout ce que nous construisons. Depuis la première ligne de code, nous intégrons des principes de minimisation des données, garantissant que nous ne collectons que ce qui est strictement nécessaire. Chaque vérification nécessite un consentement explicite et éclairé, et nous maintenons une transparence totale sur la façon dont les données sont traitées et éliminées. Notre architecture a été conçue pour que vous n'ayez jamais à choisir entre une sécurité robuste et le respect de la confidentialité.",
+
+  "about.sections.4.title": "Technologie",
+  "about.sections.4.text": "Notre plateforme combine des algorithmes avancés de détection de vivacité avec une comparaison faciale 1:N de haute précision, capables d'identifier des tentatives de fraude sophistiquées telles que les deepfakes, les masques et la présentation de photos. Construite sur une infrastructure cloud-native résiliente, LenzId traite des milliers de vérifications simultanées avec une latence ultra-faible, garantissant une expérience fluide même pendant les pics de demande. Nous investissons continuellement dans la recherche et le développement pour maintenir notre technologie à la pointe de la biométrie faciale.",
+
+  "about.sections.5.title": "Contact",
+  "about.sections.5.text": "Nous sommes prêts à discuter de la façon dont LenzId peut renforcer la sécurité de votre entreprise. Que ce soit pour discuter de partenariats stratégiques, clarifier des questions techniques, demander un support spécialisé ou explorer des cas d'utilisation spécifiques à votre secteur, notre équipe est disponible. Contactez-nous via nos canaux officiels et découvrez comment nous pouvons collaborer pour élever vos normes d'authentification et votre protection contre la fraude.",
+
+
+  "docs": {
+    "meta": {
+      "title": "Documentation de l'API Auth Face",
+      "description": "Documentation technique complète pour l'API d'authentification biométrique Auth Face."
+    },
+    "page": {
+      "title": "Documentation",
+      "subtitle": "Authentification biométrique basée sur les sessions avec protection anti-fraude."
+    },
+    
+    "api_overview": {
+      "content": "# Aperçu de l'API\n\nAuth Face est un microservice d'authentification biométrique conçu pour fournir une connexion utilisateur sécurisée et une vérification d'identité par reconnaissance faciale.\n\nL'API offre un flux complet d'authentification faciale, incluant la capture de visage, la détection de vivacité et des mécanismes anti-fraude, garantissant que seuls les utilisateurs réels et autorisés peuvent accéder aux systèmes protégés.\n\nConçue pour l'intégration serveur à serveur, Auth Face permet aux plateformes de démarrer une session biométrique, de rediriger les utilisateurs vers une interface sécurisée de capture faciale et de récupérer ultérieurement le résultat d'authentification en utilisant une référence d'état fournie par le client (`client_state`).\n\nPour la confidentialité et la sécurité, Auth Face ne stocke pas d'images faciales. Seuls des embeddings faciaux irréversibles (représentations mathématiques des caractéristiques biométriques) sont traités et stockés, réduisant considérablement le risque d'exposition de données personnelles et simplifiant la conformité aux réglementations nationales et internationales de protection des données.\n\nLes fonctionnalités clés incluent la connexion faciale et la vérification d'identité, la détection de vivacité pour prévenir les tentatives d'usurpation (comme les photos, vidéos ou rejeux), la détection de conflits biométriques et l'authentification basée sur les sessions avec des redirections sécurisées. L'architecture est multi-tenant, évolutive et adaptée aux flux d'intégration, aux connexions récurrentes et aux actions à haut risque.\n\nAuth Face est idéal pour les applications nécessitant une authentification forte, une prévention efficace de la fraude et une expérience utilisateur sans friction ni mot de passe."
+    },
+
+    "title": {
+      "content": "# API Biométrique — Flux Basés sur les Sessions et Anti-Fraude\n\nUn guide complet pour implémenter une authentification biométrique sécurisée avec prévention de fraude intégrée."
+    },
+
+    "toc": {
+      "content": "## Table des Matières\n\n- Aperçu\n- Architecture\n- Points de Terminaison de Flux Biométrique\n- Charge Utile de Requête de Base\n- Détails des Points de Terminaison\n- Réponse de Session\n- Flux d'Intégration Complet\n- Point de Terminaison de Résultat\n- Points de Terminaison de Gestion et de Contrôle\n- Couches de Sécurité et Anti-Fraude\n- Meilleures Pratiques d'Intégration\n- Confidentialité et Sécurité"
+    },
+
+    "overview": {
+      "content": "## Aperçu\n\nCette API fournit une authentification biométrique basée sur les sessions avec redirection de l'utilisateur vers une interface sécurisée de capture faciale.\n\nTous les points de terminaison utilisent des méthodes **HTTP POST**."
+    },
+
+    "features": {
+      "content": "### Fonctionnalités Clés\n\n- ✅ **Détection de Vivacité** — Empêche l'usurpation par photo/vidéo\n- ✅ **Prévention des Doublons (1:N)** — Bloque les identités multiples\n- ✅ **Corrélation de Session** — Gestion d'état sécurisée via `client_state`\n- ✅ **Confidentialité d'Abord** — Aucune image/vidéo envoyée au client\n- ✅ **Sessions à Expiration Automatique** — Jetons de sécurité à usage unique"
+    },
+
+    "architecture": {
+      "content": "## Architecture\n\nL'API est organisée en deux groupes principaux :\n\n### 1. Points de Terminaison de Flux Biométrique\nSessions interactives nécessitant une capture faciale avec vérifications anti-fraude.\n\n### 2. Points de Terminaison de Gestion et de Contrôle\nOpérations administratives sans capture biométrique ni redirection."
+    },
+
+    "biometric_endpoints": {
+      "content": "## Points de Terminaison de Flux Biométrique\n\nCes points de terminaison initient une session biométrique et retournent une URL sécurisée pour la capture faciale.\n\n### Points de Terminaison Disponibles\n\n| Point de Terminaison | Objectif | Type de Flux | Nécessite external_user_id |\n|--------|--------|----------|---------------------------|\n| POST /biometry/v1/enroll | Enregistrer un nouvel utilisateur avec vérification des doublons | 1:N | ✅ Oui |\n| POST /biometry/v1/verify | Authentifier un utilisateur existant | 1:1 | ✅ Oui |\n| POST /biometry/v1/identify | Trouver un utilisateur dans la base de données | 1:N | ❌ Non |\n| POST /biometry/v1/update-embedding | Mettre à jour les données biométriques de l'utilisateur | 1:1 | ✅ Oui |"
+    },
+
+    "base_payload": {
+      "content": "## Charge Utile de Requête de Base\n\nTous les points de terminaison de flux biométrique nécessitent les champs principaux suivants :\n\n```json\n{\n  \"client_state\": \"550e8400-e29b-41d4-a716-446655440000\",\n  \"redirect_url\": \"https://client.example.com/callback\"\n}\n```\n\n### Spécifications des Champs\n\n| Champ | Type | Requis | Description |\n|------|------|----------|-------------|\n| client_state | string (UUID v4) | ✅ Oui | Identifiant unique pour cette session biométrique |\n| redirect_url | string (URL) | ✅ Oui | URL de rappel où l'utilisateur revient après la capture |\n| external_user_id | string | Dépend | Identifiant utilisateur interne (requis pour enroll / verify / update) |"
+    },
+
+    "enroll": {
+      "content": "## 1. Enroll — Enregistrement Anti-Fraude\n\n**Objectif :** Enregistrer un nouvel utilisateur tout en prévenant les identités dupliquées.\n\n**POST /biometry/v1/enroll**\n\n```json\n{\n  \"client_state\": \"550e8400-e29b-41d4-a716-446655440000\",\n  \"redirect_url\": \"https://client.example.com/callback\",\n  \"external_user_id\": \"user_12345\"\n}\n```\n\n### Comportement Anti-Fraude\n\n- Avant l'enregistrement, le système effectue une **recherche biométrique 1:N**\n- Si un visage similaire existe déjà :\n  - ❌ L'enregistrement est bloqué\n  - 📋 Le résultat indique une duplication biométrique\n  - 🚨 Empêche les identités biométriques multiples pour le même individu\n\n> ⚠️ **Important :** Enroll n'est pas un simple enregistrement — c'est un flux de prévention de duplication d'identité.\n\n### Cas d'Usage\n\n- Enregistrement de nouvel utilisateur\n- Création de compte avec vérification biométrique\n- Intégration d'utilisateur anti-fraude"
+    },
+
+    "verify": {
+      "content": "## 2. Verify — Vérification Faciale (1:1)\n\n**Objectif :** Confirmer que la personne correspond à une identité connue spécifique.\n\n**POST /biometry/v1/verify**\n\n```json\n{\n  \"client_state\": \"550e8400-e29b-41d4-a716-446655440000\",\n  \"redirect_url\": \"https://client.example.com/callback\",\n  \"external_user_id\": \"user_12345\"\n}\n```\n\n### Comportement\n\n- Compare le visage capturé à un utilisateur spécifique\n- Utilisé pour l'authentification, la connexion ou la confirmation d'identité\n- Ne recherche pas dans toute la base de données\n\n### Cas d'Usage\n\n- Authentification de connexion\n- Confirmation de transaction\n- Validation d'identité avant des opérations sensibles"
+    },
+
+    "identify": {
+      "content": "## 3. Identify — Identification Faciale (1:N)\n\n**Objectif :** Identifier qui est la personne en recherchant dans toute la base de données biométrique.\n\n**POST /biometry/v1/identify**\n\n```json\n{\n  \"client_state\": \"550e8400-e29b-41d4-a716-446655440000\",\n  \"redirect_url\": \"https://client.example.com/callback\"\n}\n```\n\n### Comportement\n\n- Compare le visage capturé à toute la base de données biométrique\n- Ne nécessite pas `external_user_id`\n- Retourne l'utilisateur identifié dans le résultat\n\n### Cas d'Usage\n\n- \"Connexion avec votre visage\" (aucun nom d'utilisateur requis)\n- Contrôle d'accès aux emplacements physiques\n- Détection de comptes dupliqués"
+    },
+
+    "update_embedding": {
+      "content": "## 4. Update Embedding — Mise à Jour Biométrique\n\n**Objectif :** Mettre à jour les données biométriques faciales d'un utilisateur tout en préservant l'historique.\n\n**POST /biometry/v1/update-embedding**\n\n```json\n{\n  \"client_state\": \"550e8400-e29b-41d4-a716-446655440000\",\n  \"redirect_url\": \"https://client.example.com/callback\",\n  \"external_user_id\": \"user_12345\"\n}\n```\n\n### Comportement\n\n- Met à jour l'embedding facial d'un utilisateur existant\n- Préserve les règles de protection anti-fraude et de duplication\n- Maintient l'historique d'audit\n\n### Cas d'Usage\n\n- Changements d'apparence significatifs (vieillissement, pilosité faciale, etc.)\n- Amélioration de la qualité du modèle biométrique\n- Récupération d'une capture initiale de mauvaise qualité"
+    },
+
+    "session_response": {
+      "content": "## Réponse de Session\n\nTous les points de terminaison biométriques retournent une réponse d'initialisation de session :\n\n```json\n{\n  \"success\": true,\n  \"client_state\": \"qe94ab30-ed1b-4905-be83-5cfc6c43ae88\",\n  \"biometry_url\": \"https://facial-detection.authface.com/?t=...\"\n}\n```\n\n### Notes\n\n- `success` indique le traitement de la requête (pas le résultat biométrique)\n- `client_state` répète l'identifiant de session\n- `biometry_url` est l'URL sécurisée de capture faciale"
+    },
+
+    "integration_flow": {
+      "content": "## Flux d'Intégration Complet\n\n```\n┌─────────┐                 ┌─────────┐                 ┌──────────────┐\n│ Client  │                 │   API   │                 │ Utilisateur  │\n└────┬────┘                 └────┬────┘                 └────┬─────────┘\n     │                           │                           │\n     │ 1. POST /enroll           │                           │\n     │    (client_state,         │                           │\n     │     redirect_url)         │                           │\n     ├──────────────────────────>│                           │\n     │                           │                           │\n     │ 2. Session Créée          │                           │\n     │    (biometry_url)         │                           │\n     │<──────────────────────────┤                           │\n     │                           │                           │\n     │ 3. Rediriger utilisateur  │                           │\n     │    vers biometry_url      │                           │\n     ├───────────────────────────┼──────────────────────────>│\n     │                           │                           │\n     │                           │ 4. Capture Faciale        │\n     │                           │    (Vivacité + Anti-Fraude)│\n     │                           │<──────────────────────────┤\n     │                           │                           │\n     │ 5. Rediriger vers callback│                           │\n     │    redirect_url           │                           │\n     │    ?client_state=...      │                           │\n     │<──────────────────────────┼───────────────────────────┤\n     │                           │                           │\n     │ 6. POST /result           │                           │\n     │    (client_state)         │                           │\n     ├──────────────────────────>│                           │\n     │                           │                           │\n     │ 7. Résultat Final         │                           │\n     │    (succès/échec)         │                           │\n     │<──────────────────────────┤                           │\n```\n"
+    },
+
+    "result_endpoint": {
+      "content": "## Point de Terminaison de Résultat — Décision Finale\n\n**POST /biometry/v1/result**\n\n```json\n{\n  \"client_state\": \"session-uuid\"\n}\n```\n\nFonctionne pour :\n- enroll\n- verify\n- identify\n- update-embedding"
+    },
+
+    "management": {
+      "content": "## Points de Terminaison de Gestion et de Contrôle\n\n| Point de Terminaison | Objectif |\n|--------|--------|\n| POST /biometry/v1/list-users | Lister les utilisateurs enregistrés |\n| POST /biometry/v1/get-user | Récupérer un utilisateur enregistré |\n| POST /biometry/v1/delete-user | Supprimer un utilisateur biométrique |"
+    },
+
+    "security": {
+      "content": "## Couches de Sécurité et Anti-Fraude\n\n- **Détection de Vivacité** — Empêche les photos, vidéos et rejeux d'écran\n- **Protection contre la Duplication Biométrique** — Appliquée via des vérifications 1:N\n- **Gestion Sécurisée des Sessions** — Sessions à usage unique avec expiration automatique"
+    },
+
+    "best_practices": {
+      "content": "## Meilleures Pratiques d'Intégration\n\n- ✅ Générez un nouveau `client_state` pour chaque requête\n- ✅ Redirigez toujours l'utilisateur vers `biometry_url`\n- ✅ Ne réutilisez jamais les sessions\n- ✅ Utilisez `/result` comme unique source de vérité\n- ✅ Traitez les réponses de duplication comme des événements anti-fraude"
+    },
+
+    "privacy": {
+      "content": "## Confidentialité et Sécurité\n\nL'API ne reçoit ni ne stocke jamais d'images ou de vidéos biométriques.\n\nCe modèle basé sur les sessions protège à la fois les utilisateurs et les intégrateurs tout en maintenant les plus hauts standards de sécurité."
+    }
+  },
+
+
+  "pricing": {
+    "meta": {
+      "title": "Tarifs | LenzId",
+      "description": "Tarification transparente et intégration simplifiée via RapidAPI.",
+      "og": {
+        "title": "Tarifs",
+        "description": "Choisissez le plan idéal avec une tarification transparente et une intégration simplifiée."
+      }
+    },
+
+    "title": "Choisissez le Plan Idéal",
+    "subtitle": "Tarification transparente et intégration simplifiée via RapidAPI.",
+    "popular": "Le Plus Populaire",
+    "requestsLabel": "Requêtes",
+    "featuresLabel": "Fonctionnalités",
+    "bandwidthLabel": "Frais de Bande Passante de la Plateforme",
+    "plans": {
+      "basic": {
+        "name": "Basic",
+        "price": "$0.00",
+        "period": "/mois",
+        "requests": "1 000 / Mois",
+        "dailyLimit": "Limite quotidienne de requêtes (par flux)",
+        "dailyLimitDetail": "Jusqu’à 50 requêtes/jour",
+        "userLimit": "Limite d’utilisateurs",
+        "userLimitDetail": "Jusqu’à 5 utilisateurs",
+        "bandwidth": "10240MB / Mois",
+        "bandwidthFee": "+$0.001 par 1MB",
+        "cta": "Commencer le Plan Gratuit"
+      },
+      "pro": {
+        "name": "Pro",
+        "price": "$12.00",
+        "period": "/mois",
+        "requests": "10 000 / Mois",
+        "dailyLimit": "Limite quotidienne de requêtes (par flux)",
+        "dailyLimitDetail": "Jusqu’à 500 requêtes/jour",
+        "userLimit": "Limite d’utilisateurs",
+        "userLimitDetail": "Jusqu’à 50 utilisateurs",
+        "bandwidth": "10240MB / Mois",
+        "bandwidthFee": "+$0.001 par 1MB",
+        "cta": "Choisir ce Plan"
+      },
+      "ultra": {
+        "name": "Ultra",
+        "price": "$29.00",
+        "period": "/mois",
+        "requests": "60 000 / Mois",
+        "dailyLimit": "Limite quotidienne de requêtes (par flux)",
+        "dailyLimitDetail": "Jusqu’à 3 000 requêtes/jour",
+        "userLimit": "Limite d’utilisateurs",
+        "userLimitDetail": "Jusqu’à 300 utilisateurs",
+        "bandwidth": "10240MB / Mois",
+        "bandwidthFee": "+$0.001 par 1MB",
+        "cta": "Choisir ce Plan"
+      },
+      "mega": {
+        "name": "Mega",
+        "price": "$149.00",
+        "period": "/mois",
+        "requests": "400 000 / Mois",
+        "dailyLimit": "Limite quotidienne de requêtes (par flux)",
+        "dailyLimitDetail": "Jusqu’à 20 000 requêtes/jour",
+        "userLimit": "Limite d’utilisateurs",
+        "userLimitDetail": "Jusqu’à 1 500 utilisateurs",
+        "bandwidth": "10240MB / Mois",
+        "bandwidthFee": "+$0.001 par 1MB",
+        "cta": "Choisir ce Plan"
+      }
+    }
+  },
+
+
+  
+  "demo": {
+    "menu": {
+      "demo": "Démo"
+    },
+
+    "meta": {
+      "title": "Démo Biométrique | LenzId",
+      "description": "Testez le flux de démonstration d'authentification faciale en utilisant RapidAPI."
+    },
+
+    "hero": {
+      "title": "Configuration de la Démo",
+      "subtitle": "Commencez à Tester l'API",
+
+      "steps": {
+        "1": {
+          "before": "Activez le",
+          "link": "Plan Gratuit sur RapidAPI"
+        },
+        "2": "Copiez votre Clé RapidAPI.",
+        "3": "Collez ci-dessous — la démo l'utilisera automatiquement."
+      },
+
+      "label_key": "Clé RapidAPI",
+      "placeholder_key": "Collez votre Clé RapidAPI ici...",
+
+      "host_label": "Hôte préconfiguré:",
+      "redirect_label": "URL de redirection pour cette démo:",
+
+      "button": "Enregistrer la Clé et Démarrer la Démo"
+    },
+
+    "flow": {
+      "title": "Playground de Démo de l'API",
+      "subtitle": "Choisissez un flux d'endpoint pour tester votre intégration biométrique.",
+
+      "change_key": "Changer la Clé de l'API",
+
+      "back": "Retour",
+      "placeholder": "Flux:",
+
+      "missing_key": {
+        "title": "Clé RapidAPI Manquante",
+        "button": "Retour à la Configuration"
+      },
+
+      "cards": {
+        "list": {
+          "title": "Lister Tous les Utilisateurs",
+          "desc": "Rechercher tous les utilisateurs enregistrés dans ce tenant.",
+          "info": "Récupérez chaque utilisateur biométrique actuellement enregistré dans votre système."
+        },
+        "getUser": {
+          "title": "Obtenir un Utilisateur Enregistré",
+          "desc": "Rechercher les données biométriques d'un utilisateur.",
+          "info": "Récupérez les détails d'un seul utilisateur enregistré par external_user_id."
+        },
+        "enroll": {
+          "title": "Enregistrer un Nouvel Utilisateur",
+          "desc": "Enregistrer un nouvel utilisateur de manière biométrique.",
+          "info": "Démarre une session d'enregistrement. Retourne une erreur si l'utilisateur existe déjà."
+        },
+        "identify": {
+          "title": "Connexion par Visage",
+          "desc": "Identifier un utilisateur automatiquement.",
+          "info": "Démarre une session d'identification sans ID utilisateur. Redirige vers la connexion faciale."
+        },
+        "verify": {
+          "title": "Vérifier l'Identité",
+          "desc": "Vérifier si le visage correspond à un utilisateur spécifique.",
+          "info": "Démarre une session de vérification pour un utilisateur enregistré et redirige vers la capture."
+        },
+        "update": {
+          "title": "Mettre à Jour la Biométrie",
+          "desc": "Mettre à jour la référence biométrique d'un utilisateur.",
+          "info": "Démarre une session de mise à jour pour que l'utilisateur puisse renouveler l'embedding biométrique."
+        },
+        "delete": {
+          "title": "Supprimer un Utilisateur",
+          "desc": "Supprimer un utilisateur enregistré",
+          "info": "Liste les utilisateurs et permet de supprimer définitivement un external_user_id."
+        }
+      }
+    },
+
+    "enroll": {
+      "title": "Enregistrer un Nouvel Utilisateur",
+      "subtitle": "Démarre une session d'enregistrement biométrique et redirige vers la capture.",
+
+      "input": {
+        "label": "ID Externe de l'Utilisateur",
+        "placeholder": "ex: Marie"
+      },
+
+      "error_card": {
+        "title": "Erreur lors de l'Enregistrement"
+      },
+
+      "success_card": {
+        "title": "Enregistrement Démarré",
+        "message": "La capture biométrique est prête. Redirection en cours...",
+        "redirect": "Ouvrir la Capture Faciale"
+      },
+
+      "buttons": {
+        "start": "Démarrer l'Enregistrement",
+        "starting": "Démarrage...",
+        "back": "Retour"
+      },
+
+      "curl": {
+        "title": "Endpoint d'Enregistrement"
+      },
+
+      "debug": {
+        "title": "Réponse Brute de l'API (Debug)"
+      },
+
+      "errors": {
+        "failed": "L'enregistrement a échoué.",
+        "unexpected": "Réponse inattendue de l'API.",
+        "generic": "Quelque chose s'est mal passé.",
+        "unknown": "Erreur inconnue",
+        "already_exists": "Cet utilisateur est déjà enregistré. Veuillez choisir un autre external_user_id."
+      }
+    },
+
+    "get_user": {
+      "title": "Obtenir un Utilisateur Enregistré",
+      "subtitle": "Rechercher les données biométriques d'un utilisateur spécifique en utilisant son external_user_id.",
+
+      "input": {
+        "label": "ID Externe de l'Utilisateur",
+        "placeholder": "ex: Jean"
+      },
+
+      "error_card": {
+        "title": "Erreur lors de la Recherche de l'Utilisateur"
+      },
+
+      "success_card": {
+        "title": "Utilisateur Trouvé",
+        "message": "Profil biométrique de l'utilisateur chargé avec succès."
+      },
+
+      "buttons": {
+        "fetch": "Rechercher l'Utilisateur",
+        "loading": "Recherche...",
+        "back": "Retour"
+      },
+
+      "curl": {
+        "title": "Endpoint d'Obtention d'Utilisateur Enregistré"
+      },
+
+      "debug": {
+        "title": "Réponse Brute de l'API (Debug)"
+      },
+
+      "errors": {
+        "not_found": "Utilisateur non trouvé.",
+        "unexpected": "Réponse inattendue de l'API.",
+        "generic": "Quelque chose s'est mal passé.",
+        "unknown": "Erreur inconnue",
+        "external_not_found": "Aucun utilisateur enregistré n'a été trouvé avec cet external_user_id."
+      }
+    },
+
+    "identify": {
+      "title": "Connexion par Visage (Identification)",
+      "subtitle": "Identifier un utilisateur automatiquement en utilisant uniquement sa capture faciale biométrique.",
+
+      "error_card": {
+        "title": "Erreur lors de l'Identification"
+      },
+
+      "success_card": {
+        "title": "Session d'Identification Démarrée",
+        "message": "Redirection vers la connexion faciale biométrique...",
+        "redirect": "Ouvrir la Connexion Faciale"
+      },
+
+      "buttons": {
+        "start": "Démarrer la Connexion Faciale",
+        "loading": "Démarrage...",
+        "back": "Retour"
+      },
+
+      "curl": {
+        "title": "Endpoint d'Identification"
+      },
+
+      "debug": {
+        "title": "Réponse Brute de l'API (Debug)"
+      },
+
+      "errors": {
+        "failed": "L'identification a échoué.",
+        "unexpected": "Réponse inattendue de l'API.",
+        "generic": "Quelque chose s'est mal passé.",
+        "unknown": "Erreur inconnue"
+      }
+    },
+
+    "list_users": {
+      "title": "Lister Tous les Utilisateurs",
+      "subtitle": "Rechercher tous les utilisateurs biométriques enregistrés dans votre tenant.",
+
+      "error_card": {
+        "title": "Erreur lors du Listage des Utilisateurs"
+      },
+
+      "success_card": {
+        "title": "Utilisateurs Chargés avec Succès",
+        "message": "Tous les utilisateurs enregistrés ont été récupérés de ce tenant."
+      },
+
+      "buttons": {
+        "fetch": "Rechercher les Utilisateurs",
+        "loading": "Recherche...",
+        "back": "Retour"
+      },
+
+      "curl": {
+        "title": "Endpoint de Listage de Tous les Utilisateurs"
+      },
+
+      "debug": {
+        "title": "Réponse Brute de l'API (Debug)"
+      },
+
+      "errors": {
+        "failed": "Échec du listage des utilisateurs.",
+        "unexpected": "Réponse inattendue de l'API.",
+        "generic": "Quelque chose s'est mal passé.",
+        "unknown": "Erreur inconnue"
+      }
+    },
+
+    "result": {
+      "title": "Résultat Biométrique",
+      "subtitle": "Résultat final retourné après la capture et le traitement facial.",
+
+      "buttons": {
+        "back_menu": "Retour au Menu de la Démo"
+      },
+
+      "error_card": {
+        "title": "Erreur dans le Résultat"
+      },
+
+      "success_card": {
+        "title": "Session Biométrique Terminée",
+        "message": "Vérification faciale finalisée avec succès."
+      },
+
+      "outcome": {
+        "title": "Résultat",
+        "status": "Statut:",
+        "user": "Utilisateur:",
+        "reason": "Raison:"
+      },
+
+      "debug": {
+        "title": "Payload Brut du Résultat (Debug)"
+      },
+
+      "errors": {
+        "missing_state": "State absent dans l'URL de redirection.",
+        "not_available": "Résultat biométrique non disponible.",
+        "unexpected": "Réponse inattendue de l'API.",
+        "failed": "Échec de la recherche du résultat biométrique.",
+        "unknown": "Erreur inconnue"
+      }
+    },
+
+    "update": {
+      "title": "Mettre à Jour la Référence Biométrique",
+      "subtitle": "Renouveler l'embedding d'un utilisateur enregistré en capturant un nouveau scan facial biométrique.",
+
+      "input": {
+        "label": "ID Externe de l'Utilisateur",
+        "placeholder": "ex: Jean"
+      },
+
+      "error_card": {
+        "title": "Erreur lors de la Mise à Jour"
+      },
+
+      "success_card": {
+        "title": "Session de Mise à Jour Démarrée",
+        "message": "Redirection vers la recapture biométrique...",
+        "redirect": "Ouvrir la Capture de Mise à Jour"
+      },
+
+      "buttons": {
+        "start": "Démarrer la Mise à Jour",
+        "loading": "Démarrage...",
+        "back": "Retour"
+      },
+
+      "curl": {
+        "title": "Endpoint de Mise à Jour d'Embedding"
+      },
+
+      "debug": {
+        "title": "Réponse Brute de l'API (Debug)"
+      },
+
+      "errors": {
+        "failed": "La mise à jour a échoué.",
+        "unexpected": "Réponse inattendue de l'API.",
+        "generic": "Quelque chose s'est mal passé.",
+        "unknown": "Erreur inconnue",
+        "not_enrolled": "Cet utilisateur n'est pas encore enregistré. Veuillez d'abord l'enregistrer."
+      }
+    },
+
+    "verify": {
+      "title": "Vérifier l'Identité",
+      "subtitle": "Vérifier si un visage capturé correspond à un utilisateur spécifique enregistré.",
+
+      "input": {
+        "label": "ID Externe de l'Utilisateur",
+        "placeholder": "ex: Jean"
+      },
+
+      "error_card": {
+        "title": "Erreur lors de la Vérification"
+      },
+
+      "success_card": {
+        "title": "Session de Vérification Démarrée",
+        "message": "Redirection vers la capture de vérification biométrique...",
+        "redirect": "Ouvrir la Capture de Vérification"
+      },
+
+      "buttons": {
+        "start": "Démarrer la Vérification",
+        "loading": "Démarrage...",
+        "back": "Retour"
+      },
+
+      "curl": {
+        "title": "Endpoint de Vérification"
+      },
+
+      "debug": {
+        "title": "Réponse Brute de l'API (Debug)"
+      },
+
+      "errors": {
+        "failed": "La vérification a échoué.",
+        "unexpected": "Réponse inattendue de l'API.",
+        "generic": "Quelque chose s'est mal passé.",
+        "unknown": "Erreur inconnue",
+        "not_enrolled": "Cet utilisateur n'est pas encore enregistré. Veuillez d'abord l'enregistrer."
+      }
+    },
+
+    "api_box": {
+      "title": "Réponse de l'API",
+      "copy": "Copier",
+      "loading": "Chargement de la réponse...",
+      "request_failed": "Requête Échouée",
+      "empty": "Aucune réponse pour le moment.",
+      "success": "Réponse reçue avec succès"
+    },
+
+    "curl_box": {
+      "title": "Exemple de cURL",
+      "copy": "Copier",
+      "body_label": "Exemple de corps de la requête:"
+    },
+
+    "error_card": {
+      "title": "Erreur dans la Requête"
+    },
+
+    "success_card": {
+      "title": "Succès",
+      "continue": "Continuer",
+      "client_state": "State du Client:",
+      "users": {
+        "id": "Utilisateur",
+        "status": "Statut",
+        "more": "{{count}} utilisateurs de plus..."
+      }
+    },
+    "result_card": {
+      "failed": "Biométrie refusée. Raison: {{reason}}",
+      "warning": "Session terminée avec alerte.",
+      "status": "Résultat",
+      "user": "Utilisateur",
+      "score": "Score"
+    },
+    "result_page": {
+    "meta": {
+      "title": "Demo Result | LenzId"
+    },
+      "missing_state": {
+        "title": "Session non trouvée",
+        "subtitle": "Aucun identifiant de session n'a été reçu dans le retour de l'API.",
+        "back": "Retour à la Démo"
+      }
+    },
+
+    "delete_user": {
+      "title": "Supprimer un Utilisateur",
+      "subtitle": "Listez les utilisateurs enregistrés et sélectionnez-en un pour le supprimer définitivement.",
+
+      "buttons": {
+        "fetch_users": "Lister les Utilisateurs",
+        "loading_users": "Chargement...",
+        "delete": "Supprimer l'Utilisateur",
+        "deleting": "Suppression...",
+        "back": "Retour"
+      },
+
+      "select": {
+        "label": "Sélectionnez un utilisateur",
+        "placeholder": "Choisissez un external_user_id..."
+      },
+
+      "success_card": {
+        "title": "Utilisateur Supprimé",
+        "message": "L'utilisateur a été supprimé avec succès."
+      },
+
+      "error_card": {
+        "title": "Erreur"
+      },
+
+      "curl": {
+        "title": "Exemple de cURL"
+      },
+
+      "debug": {
+        "title": "Réponse Complète (Debug)"
+      },
+
+      "errors": {
+        "list_failed": "Échec du listage des utilisateurs.",
+        "delete_failed": "Échec de la suppression de l'utilisateur.",
+        "unexpected": "Réponse inattendue de l'API.",
+        "generic": "Erreur lors du traitement de la demande.",
+        "unknown": "Erreur inconnue."
+      }
+    },
+    "result_api_errors": {
+      "invalid_rapidapi_origin": "Origine RapidAPI invalide ou non autorisée.",
+      "invalid_signature": "Signature invalide. Vérifiez votre client_secret.",
+      "tenant_inactive": "Ce tenant est inactif ou bloqué.",
+      "client_id_not_found": "Client ID non trouvé.",
+      "invalid_payload": "Payload invalide. Champs obligatoires manquants.",
+      "invalid_client_state": "Client state invalide ou mal formaté.",
+      "session_not_found": "Session non trouvée ou expirée.",
+      "unknown": "Erreur inconnue lors de la recherche du résultat."
+    },
+    "reasons": {
+      "below_threshold": "Le visage n'a pas atteint le niveau minimum de confiance.",
+      "conflict": "Conflit détecté: ce visage est déjà lié à un autre utilisateur.",
+      "not_enrolled": "Utilisateur pas encore enregistré.",
+      "multiple_faces": "Plus d'un visage a été détecté dans la capture.",
+      "no_face": "Aucun visage n'a été détecté.",
+      "spoof_detected": "Fraude détectée: tentative de spoof possible.",
+      "liveness_failed": "Échec de la vérification de preuve de vie.",
+      "timeout": "Session expirée avant d'être terminée.",
+      "canceled": "L'utilisateur a annulé le processus.",
+      "camera_error": "Erreur lors de l'accès à la caméra.",
+      "processing_error": "Erreur interne lors du traitement de la biométrie.",
+      "unknown": "Raison inconnue."
+    }
+  }
+}
+
+
+
+
+
