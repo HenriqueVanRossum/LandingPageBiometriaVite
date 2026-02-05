@@ -42,7 +42,6 @@ const Documentation = () => {
           </div>
         </section>
 
-        {/* Full documentation */}
         <DocumentationSection />
       </div>
     </>
