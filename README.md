@@ -22,6 +22,9 @@ Landing page moderna desenvolvida com React, Vite e Tailwind CSS, focada em solu
 
 ```bash
 git clone https://github.com/HenriqueVanRossum/LandingPageBiometriaVite.git
+```
+
+```
 cd LandingPageBiometriaVite
 ```
 
